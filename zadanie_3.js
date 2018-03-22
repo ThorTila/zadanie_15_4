@@ -4,5 +4,6 @@ let average = (...numbers) => {
         sum += numbers[i];
     };
     return sum / numbers.length;
-};
-console.log(average(2,3,4,5,6));
+},
+ show = (...numbers) => console.log(average(...numbers));
+export {average};
